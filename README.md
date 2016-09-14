@@ -1,5 +1,6 @@
 # -
 aliPay mobile 开发遇到问题的总结
+android 测试机  moto x（第二代）  android版本5.1
 
 1. 安卓版本采用的浏览器内核为老版uc   ios版未测 按常识应该是跟随手机系统走 兼容性良好
 
