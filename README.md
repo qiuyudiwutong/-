@@ -14,3 +14,4 @@ android 测试机  moto x（第二代）  android版本5.1
     transform: translate(-50%, -50%);
 
 4. ios版动态事件绑定问题 待测 待解决  有时直接绑定到body上会不生效
+    **  补充问题描述  click不生效  touchstart生效  
