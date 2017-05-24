@@ -5,23 +5,20 @@
 <li><a href="#Compatibility">兼容性问题</a></li>
 </ul>
 <h4 id="node"> node 相关 </h4>
-windows环境 : <br/>  
+windows环境 : 
+
 1. nodejs 中奇数版本为不稳定版本
 
 2. node与npm的版本号并不相同  npm版本可以通过执行命令
-
 <code>npm update -g npm</code>
-
 如果没有更新下载东西 则表明是最新版本
 
 3. 安装gulp grunt 等管理工具  需要在项目目录下执行下本身的安装命令   在电脑全局运行不会生效
 
 4. 安装node-sass时，遇到的错误MSBUILD: error MSB3428 Visual C++ VCBuild.exe 1) .NET Framework 2.0 SDK Microsoft 
 需安装淘宝镜像 <em>（建议安装node的时候就安上）</em>，然后使用cnpm安装node-sass
->
 <code>
 $ npm install cnpm -g --registry=https://registry.npm.taobao.org
-
 $ cnpm install node-sass --registry=https://registry.npm.taobao.org
 </code>
 
