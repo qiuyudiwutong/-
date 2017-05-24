@@ -23,7 +23,7 @@ $ npm install cnpm -g --registry=https://registry.npm.taobao.org<br/>
 $ cnpm install node-sass --registry=https://registry.npm.taobao.org
 </code>
 
-5. <a href="aliPay-mobile-/nvm">nvm</a> 可以控制使用的nodejs版本
+5. <a href="nvm">nvm</a> 可以控制使用的nodejs版本
 
 
 
