@@ -1,7 +1,14 @@
-###aliPay mobile 内嵌页面 开发遇到的兼容性问题总结
-android 测试机  moto x（第二代）  android版本5.1
+<h3>日常开发总结</h3>
 
-1. 安卓版本采用的浏览器内核为老版uc   ios版未测 按常识应该是跟随手机系统走 兼容性良好
+<ul>
+<li><a href="#Compatibility">兼容性问题</a></li>
+</ul>
+
+
+<h4 id="Compatibility"> 兼容性问题 </h4>
+android 测试机  moto x（第二代）  android版本5.1  ios9-3-2
+
+1. 安卓版本采用的浏览器内核为老版uc   ios版为apple webkit 按常识应该是跟随手机系统走 兼容性良好
 
 2. 安卓版中不支持flex布局  测试过display: box、display: flexbox、display: flex、 display:-webkit-flex 都无效
 
