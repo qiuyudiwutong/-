@@ -1,15 +1,15 @@
-<a href="https://github.com/creationix/nvm/blob/master/README.md">nvm 官方git地址</a>
+nvm 官方git地址： https://github.com/creationix/nvm/blob/master/README.md  
 
-<a href="https://github.com/coreybutler/nvm-windows">  windows 安装方法 </a> <a href="https://github.com/coreybutler/nvm-windows/releases">windows Download Now</a>
+windows 安装方法：https://github.com/coreybutler/nvm-windows  
+
+windows Download：  href="https://github.com/coreybutler/nvm-windows/releases
+
 下载之后  一路next即可
 
-<h4>nvm命令</h4>
+nvm常用命令
 
-安装指定版本的nodejs 
-<code>nvm install 6.10.3</code>
+安装指定版本的nodejs   nvm install 6.10.3
 
-使用指定版本的nodejs
-<code>nvm use 6.10.3</code>
+使用指定版本的nodej    nvm use 6.10.3
 
-查看当前使用的nodejs版本
-<code>node -v</code>
+查看当前使用的nodejs版本    node -v
