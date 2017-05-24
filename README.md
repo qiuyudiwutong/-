@@ -23,6 +23,9 @@ $ npm install cnpm -g --registry=https://registry.npm.taobao.org<br/>
 $ cnpm install node-sass --registry=https://registry.npm.taobao.org
 </code>
 
+5. nvm 可以控制使用的nodejs版本
+
+
 
 <h4 id="Compatibility"> 兼容性问题 </h4>
 <em>支付宝环境 （android 测试机  moto x（第二代）  android版本5.1  ios9-3-2）</em>  
