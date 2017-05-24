@@ -1,1 +1,56 @@
-nvm
+<a href="https://github.com/creationix/nvm/blob/master/README.md">nvm 官方git地址</a>
+
+<a href="https://github.com/coreybutler/nvm-windows">  windows 安装方法 </a>    
+
+<a href="https://github.com/coreybutler/nvm-windows/releases">windows Download Now</a>
+
+下载之后  一路next即可
+
+
+<div class="show-content">
+          <h2>nvm</h2>
+<blockquote>
+<p>介绍</p>
+<p>Node Version Manager（Node版本管理器），用它可以方便的在机器上安装并维护多个Node的版本</p>
+</blockquote>
+<h3>安装</h3>
+<pre class="hljs awk"><code class="awk">curl -o- https:<span class="hljs-regexp">//</span>raw.githubusercontent.com<span class="hljs-regexp">/creationix/</span>nvm<span class="hljs-regexp">/v0.30.2/i</span>nstall.sh | bash</code></pre>
+<h3>使用</h3>
+<p>使用<code>nvm ls-remote</code>看一下node有哪些版本可以安装</p>
+<h4>安装多版本</h4>
+<pre class="hljs clean"><code class="clean">→ nvm install v4<span class="hljs-number">.5</span><span class="hljs-number">.0</span>
+Downloading https:<span class="hljs-comment">//nodejs.org/dist/v4.5.0/node-v4.5.0-darwin-x64.tar.gz...</span>
+################################################################## <span class="hljs-number">100.0</span>%</code></pre>
+<pre class="hljs clean"><code class="clean">→ nvm install v5<span class="hljs-number">.9</span><span class="hljs-number">.0</span>
+Downloading https:<span class="hljs-comment">//nodejs.org/dist/v5.9.0/node-v5.9.0-darwin-x64.tar.gz...</span>
+################################################################## <span class="hljs-number">100.0</span>%</code></pre>
+<h4>nvm 轻松切换 node 版本</h4>
+<p>nvm会将各个版本的node安装在<code>~/.nvm/versions/node</code>目录下</p>
+<pre class="hljs crmsh"><code class="crmsh">→ ls -a ~/.nvm/versions/<span class="hljs-keyword">node</span><span class="hljs-title">/
+.      ..     v4</span>.<span class="hljs-number">5.0</span> v5.<span class="hljs-number">9.0</span></code></pre>
+<pre class="hljs haskell"><code class="haskell">→ nvm ls
+         v4<span class="hljs-number">.5</span><span class="hljs-number">.0</span>
+-&gt;       v5<span class="hljs-number">.9</span><span class="hljs-number">.0</span>
+         system
+<span class="hljs-title">node</span> -&gt; stable (-&gt; v5<span class="hljs-number">.9</span><span class="hljs-number">.0</span>) (<span class="hljs-keyword">default</span>)
+<span class="hljs-title">stable</span> -&gt; <span class="hljs-number">5.9</span> (-&gt; v5<span class="hljs-number">.9</span><span class="hljs-number">.0</span>) (<span class="hljs-keyword">default</span>)
+<span class="hljs-title">iojs</span> -&gt; <span class="hljs-type">N</span>/<span class="hljs-type">A</span> (<span class="hljs-keyword">default</span>)</code></pre>
+<p>箭头（➡️）选择当前版本</p>
+<p>使用<code>nvm use</code>切换版本</p>
+<pre class="hljs crmsh"><code class="crmsh">→ nvm use v4.<span class="hljs-number">5.0</span>
+Now using <span class="hljs-keyword">node</span> <span class="hljs-title">v4</span>.<span class="hljs-number">5.0</span> (npm v2.<span class="hljs-number">15.9</span>)
+→ <span class="hljs-keyword">node</span> <span class="hljs-title">-v</span>
+v4.<span class="hljs-number">5.0</span></code></pre>
+<pre class="hljs crmsh"><code class="crmsh">→ nvm use v5.<span class="hljs-number">9.0</span>
+Now using <span class="hljs-keyword">node</span> <span class="hljs-title">v5</span>.<span class="hljs-number">9.0</span> (npm v3.<span class="hljs-number">7.3</span>)
+→ <span class="hljs-keyword">node</span> <span class="hljs-title">-v</span>
+v5.<span class="hljs-number">9.0</span></code></pre>
+<p>查看当前 node 版本</p>
+<pre class="hljs ebnf"><code class="ebnf"><span class="hljs-attribute">nvm current</span></code></pre>
+<h4>注意</h4>
+<p>新打开一个bash，输入<code>nvm current</code>会发现显示为</p>
+<pre class="hljs clean"><code class="clean">→ nvm current
+<span class="hljs-keyword">system</span></code></pre>
+<p>使用<code>nvm alias default &lt;version&gt;</code>命令来指定一个默认的node版本</p>
+
+        </div>
